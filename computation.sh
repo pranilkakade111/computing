@@ -1,3 +1,6 @@
-read -p "The first number=" firstnumber
-read -p "the second number=" secondnumber
-read -p "the third number=" thirdnumber
+read -p "The first number=" a
+read -p "the second number=" b
+read -p "the third number=" c
+
+compute1=$a+$b*$c
+echo $compute1
